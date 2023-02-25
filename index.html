@@ -114,9 +114,9 @@ if you're building something cool, doing something creative, or want to exchange
     }
 
     function set_theme() {
-      
-      document.getElementById('change-theme').innerHTML = sessionStorage.getItem('dark-mode') + ' mode because why not';
-      if (sessionStorage.getItem('dark-mode') === 'dark') { 
+      mode = sessionStorage.getItem('dark-mode') === null ? 'dark' : sessionStorage.getItem('dark-mode');
+      document.getElementById('change-theme').innerHTML = mode + ' mode because why not';
+      if (mode === 'dark') { 
         enableDarkMode(false); 
       } else {
         enableDarkMode(true);
