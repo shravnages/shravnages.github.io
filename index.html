@@ -115,6 +115,7 @@ if you're building something cool, doing something creative, or want to exchange
 
     function set_theme() {
       mode = sessionStorage.getItem('dark-mode') === null ? 'dark' : sessionStorage.getItem('dark-mode');
+      sessionStorage.setItem('dark-mode', mode);
       document.getElementById('change-theme').innerHTML = mode + ' mode because why not';
       if (mode === 'dark') { 
         enableDarkMode(false); 
