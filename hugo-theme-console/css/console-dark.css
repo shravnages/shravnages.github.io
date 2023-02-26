@@ -32,20 +32,20 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #fff;
+    --global-font-color: #d4d4d4;
     --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
-    --code-bg-color: #fff;
-    --primary-color: magenta;
+    --code-bg-color: #d4d4d4;
+    --primary-color: #ce9178;
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #fff;
+        --global-font-color: #d4d4d4;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -59,7 +59,7 @@
 }
 
 .box-masonry .box-masonry-image {
-    background: #444;
+    background: #1e1e1e;
 }
 
 .box-masonry,
@@ -74,7 +74,7 @@
 body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
-    background-color: #444;
+    background-color: #1e1e1e;
     margin-bottom: 75px;
 }
 
@@ -92,7 +92,7 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
-    color: green !important;
+    color: #559dd6 !important;
 
 }
 
@@ -125,7 +125,7 @@ h1 {
 
 p.social a {
     margin: 0 0 10px 0;
-    color: #fff;
+    color: #d4d4d4;
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -216,7 +216,7 @@ figure {
     width: 130px;
     z-index: 400;
     padding-top: 0;
-    color: green;
+    color: #9cdbfd;
 }
 
 @media only screen and (max-width: 850px) {
