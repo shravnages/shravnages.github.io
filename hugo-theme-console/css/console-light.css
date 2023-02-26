@@ -39,6 +39,7 @@
     --page-width: 70em;
     --display-h1-decoration: 1;
     --code-bg-color: #fff;
+    --primary-color: #0000ff;
 }
 
 @media only screen and (max-width: 850px) {
@@ -91,6 +92,7 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
+    color: #800000 !important;
 }
 
 h1 {
@@ -213,6 +215,7 @@ figure {
     width: 130px;
     z-index: 400;
     padding-top: 0;
+    color: #e50101 !important;
 }
 
 @media only screen and (max-width: 850px) {
