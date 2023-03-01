@@ -4,104 +4,104 @@
     
         
         <url>
-            <loc>http://example.org/history/</loc>
+            <loc>/history/</loc>
             <lastmod>2023-02-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/</loc>
+            <loc>/</loc>
             <lastmod>2023-02-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/worldcoin/</loc>
+            <loc>/history/worldcoin/</loc>
             <lastmod>2023-02-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/stories/field_tests/</loc>
+            <loc>/stories/field_tests/</loc>
             <lastmod>2022-01-21T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/stories/</loc>
+            <loc>/stories/</loc>
             <lastmod>2022-01-21T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/stowe/</loc>
+            <loc>/history/stowe/</loc>
             <lastmod>2020-07-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/harvard/</loc>
+            <loc>/history/harvard/</loc>
             <lastmod>2020-05-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/google/</loc>
+            <loc>/history/google/</loc>
             <lastmod>2019-08-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/stories/digipound_hater/</loc>
+            <loc>/stories/digipound_hater/</loc>
             <lastmod>2019-06-27T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/imperial/</loc>
+            <loc>/history/imperial/</loc>
             <lastmod>2019-06-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/digipound/</loc>
+            <loc>/history/digipound/</loc>
             <lastmod>2019-05-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/london_entrepreneurs/</loc>
+            <loc>/history/london_entrepreneurs/</loc>
             <lastmod>2019-02-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/history/goldman-sachs/</loc>
+            <loc>/history/goldman-sachs/</loc>
             <lastmod>2018-09-01T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/categories/</loc>
+            <loc>/categories/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://example.org/tags/</loc>
+            <loc>/tags/</loc>
         </url>
         
     

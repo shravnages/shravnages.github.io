@@ -2,6 +2,16 @@
 <html lang="en-us">
 <head>
 	<meta name="generator" content="Hugo 0.110.0">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D4D0HTFZ2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5D4D0HTFZ2');
+    </script>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shravan</title>
@@ -116,7 +126,6 @@ if you're building something cool, doing something creative, or want to exchange
 
     function set_theme() {
       mode = sessionStorage.getItem('dark-mode') === null ? 'dark' : sessionStorage.getItem('dark-mode');
-      sessionStorage.setItem('dark-mode', mode);
       document.getElementById('change-theme').innerHTML = mode + ' mode because why not';
       if (mode === 'dark') { 
         enableDarkMode(false); 
@@ -129,5 +138,6 @@ if you're building something cool, doing something creative, or want to exchange
       sessionStorage.setItem('dark-mode', sessionStorage.getItem('dark-mode') === 'dark' ? 'light' : 'dark');
       set_theme();
     }
+    
   </script>
 </html>
