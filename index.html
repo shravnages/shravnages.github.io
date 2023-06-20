@@ -128,9 +128,9 @@ if you're building something cool, doing something creative, or want to exchange
       mode = sessionStorage.getItem('dark-mode') === null ? 'light' : sessionStorage.getItem('dark-mode');
       document.getElementById('change-theme').innerHTML = mode + ' mode because why not';
       if (mode === 'dark') { 
-        enableDarkMode(false); 
+        enableDarkMode(true); 
       } else {
-        enableDarkMode(true);
+        enableDarkMode(false);
       }
     }
 
